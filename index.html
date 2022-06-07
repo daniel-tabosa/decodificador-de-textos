@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Decodificador de Texto</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<main>	
+			<section id="container1">
+			<img src="logo.png">	
+				<textarea id="texto" placeholder="Digite seu texto"></textarea>
+				<p id="info"><img src="info.png"> Apenas letras minúsculas e sem acento.</p>
+				<div id="crptArea">					
+					<button class="botao1" onclick="criptografar()">criptografar</button>
+					<button class="botao2" onclick="descriptografar()">descriptografar</button>
+				</div>
+			</section>
+			<aside>
+				<div id="container2">
+					<p id="resultado"></p>
+					<button class="botao2" id="copiar" onclick="copiar()">copiar</button>
+				</div>
+			</aside>
+		</main>
+		<footer>
+			<p id="rodape">Carlos Daniel Tabosa |<a href="https://github.com/daniel-tabosa"> github</a></p>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
