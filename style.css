@@ -50,7 +50,7 @@ img {
 
 #crptArea {
 	display: flex;				
-	justify-content: space-between;
+	justify-content: space-around;
 	margin: 0 10.83%;
 	}
 
@@ -98,12 +98,12 @@ aside {
 	background-image: url(frame6.png), url(frame5.png);
 	background-position: 50% 20%, 50% 75%;
 	background-size: 80%;
-	padding: 24px;
+	padding: 6%;
 	box-sizing: border-box;
 	}
 
 #copiar {
-	width: 21.6vw;
+	width: 70%;
 	visibility: hidden;				
 	}
 
@@ -114,6 +114,7 @@ aside {
 
 footer {
 	background: #0A3871;
+
 }
 
 #rodape, a{
